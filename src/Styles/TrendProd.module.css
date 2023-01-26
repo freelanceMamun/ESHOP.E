@@ -1,0 +1,48 @@
+:root {
+  --violet-color: #7e33e0;
+  --text-100: #f1f1f1;
+  --pink-color: #fb2e86;
+  --heading-color: #151875;
+}
+
+.TrendingProducts .title {
+  color: var(--heading-color);
+  font-size: 1.8rem !important;
+}
+.ListItem button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: var(--heading-color);
+  width: max-content;
+  padding: 0.2rem 0.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  transition: all 0.5s;
+}
+.ListItem button:hover {
+  background-color: var(--violet-color);
+  color: var(--text-100);
+}
+
+@media screen and (max-width: 768px) {
+  .ListItem {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 450px) {
+  .TrendingProducts .title {
+    font-size: 1.4rem !important;
+  }
+
+  .ListItem {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px !important;
+  }
+  .ListItem li button {
+    width: max-content;
+  }
+}

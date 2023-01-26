@@ -1,0 +1,49 @@
+.Current_page {
+  background-color: #f6f5ff;
+}
+.LoginFromMain h3 {
+  color: #151875;
+}
+.LoginFromMain p {
+  color: #151875;
+}
+.LoginFrom label {
+  color: #151875;
+}
+.LoginFrom input {
+  color: #151875;
+}
+.LoginFrom input:focus {
+  outline: none !important;
+  border-color: #151875 !important;
+}
+.LoginFrom input::placeholder {
+  color: #9e9eb3;
+}
+img {
+  width: 100%;
+}
+
+.SubmitBtn button {
+  outline: none;
+  border: none;
+  padding: 13px 13px;
+  width: 130px;
+  border-radius: 3px;
+  /* s */
+  color: #fff !important;
+  background-color: #151875 !important;
+}
+
+.page a {
+  text-decoration: none;
+  color: #151875;
+}
+
+@media screen and (max-width: 450px) {
+  .SubmitBtn button {
+    width: 110px;
+    padding: 8px 8px;
+    font-size: 14px;
+  }
+}

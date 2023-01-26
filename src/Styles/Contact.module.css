@@ -1,0 +1,115 @@
+:root {
+  --violet-color: #7e33e0;
+  --text-100: #f1f1f1;
+  --pink-color: #fb2e86;
+  --blue-200: #5726df;
+  --green-200: #1be982;
+  --Orange-300: #ffb265;
+  --sky-blue: #37daf3;
+  --text-color-200: #8a8fb9;
+  --heading-color: #151875;
+}
+.Heading h3 {
+  font-size: 36px;
+  line-height: 48px;
+  color: var(--heading-color);
+}
+.Heading p {
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--text-color-200);
+}
+img {
+  max-width: 100%;
+}
+.ContactInfoAbout h3,
+.ContactWay h3 {
+  font-size: 36px;
+  line-height: 48px;
+  color: var(--heading-color);
+}
+
+.ContactInfoAbout p,
+.ContactWay p {
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--text-color-200);
+}
+
+.Unicolor1,
+.Unicolor2,
+.Unicolor3,
+.Unicolor4 {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.Unicolor1 {
+  background-color: var(--blue-200);
+}
+.Unicolor2 {
+  background-color: var(--pink-color);
+}
+.Unicolor3 {
+  background-color: var(--Orange-300);
+}
+.Unicolor4 {
+  background-color: var(--green-200);
+}
+
+.Contact__img {
+  max-width: 610px;
+}
+
+.ContactFrom input {
+  outline: none;
+  width: 100%;
+  transition: all 0.4s;
+}
+.ContactFrom input:focus {
+  border-color: var(--heading-color) !important;
+}
+.ContactFrom textarea {
+  resize: none;
+  transition: all 0.4s;
+  height: 250px;
+}
+.ContactFrom textarea:focus {
+  border-color: var(--heading-color) !important;
+}
+.ContactFrom input::placeholder,
+.ContactFrom textarea::placeholder {
+  color: #9e9eb3;
+}
+.ButtonMail button {
+  outline: none;
+  border: none;
+  padding: 13px 13px;
+  width: 130px;
+  border-radius: 3px;
+  color: #fff !important;
+  background-color: #151875 !important;
+}
+
+@media screen and (max-width: 450px) {
+  .ContactInfoAbout h3,
+  .ContactWay h3 {
+    font-size: 25px;
+  }
+  .ContactInfoAbout h3 {
+    margin-left: 1.4rem !important;
+  }
+  .ContactInfoAbout p,
+  .ContactWay p {
+    margin-left: 1.4rem !important;
+  }
+  .Heading h3 {
+    font-size: 25px;
+    margin-left: 1.4rem !important;
+  }
+  .Heading p {
+    font-size: 15px;
+    margin-left: 1.4rem !important;
+  }
+}

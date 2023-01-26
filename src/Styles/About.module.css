@@ -1,0 +1,94 @@
+:root {
+  --violet-color: #7e33e0;
+  --text-100: #f1f1f1;
+  --pink-color: #fb2e86;
+  --heading-color: #151875;
+}
+
+.AboutContent h3 {
+  color: var(--heading-color);
+  font-size: 32px;
+}
+.AboutContent h3 span {
+  color: var(--pink-color);
+}
+.AboutContent h4 {
+  color: var(--heading-color);
+}
+.AboutContent p {
+  color: #8a8fb9;
+  font-size: 15px;
+  line-height: 25px;
+}
+.AboutContent button {
+  outline: none;
+  border: none;
+  padding: 13px 13px;
+  width: 130px;
+  border-radius: 3px;
+  color: #fff !important;
+  background-color: #151875 !important;
+}
+.AboutImage {
+  background-color: #2b3cab;
+  height: 409px;
+  width: 550px;
+  border-radius: 10px;
+}
+.ImageContent {
+  position: absolute;
+  right: -20px;
+}
+@media screen and (max-width: 1024px) {
+  .AboutImage {
+    width: 430px;
+    height: 320px;
+  }
+  .ImageContent {
+    width: 100%;
+    right: -21px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .AboutContent {
+    margin-left: 8rem;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .AboutContent {
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .AboutContent {
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+  .AboutContent h3 {
+    font-size: 25px;
+  }
+  .AboutContent h4 {
+    font-size: 20px;
+  }
+  .AboutContent p {
+    font-size: 13px;
+  }
+  .AboutContent button {
+    font-size: 14px;
+    padding: 10px 10px;
+    width: 100px;
+  }
+  .AboutImage {
+    height: 247px;
+    width: 330px;
+  }
+  .ImageContent {
+    width: 100%;
+    height: 100%;
+    right: -11px;
+  }
+}

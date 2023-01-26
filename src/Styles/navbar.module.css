@@ -1,0 +1,221 @@
+:root {
+  --violet-color: #7e33e0;
+  --text-100: #f1f1f1;
+  --pink-color: #fb2e86;
+}
+
+p,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+ul li {
+  list-style: none !important;
+}
+
+.custom-dropdown ul li a {
+  color: #151875 !important;
+}
+.topContent {
+  background-color: var(--violet-color);
+  color: var(--text-100);
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+.topContent ul li a {
+  color: var(--text-100);
+}
+.topbar {
+  padding: 12px 0px;
+}
+.NavComponent {
+  background-color: rgb(255, 255, 255);
+}
+
+.NavComponent form input {
+  border-radius: 2px !important;
+  border-color: #e7e6ef !important;
+}
+.NavComponent form span {
+  background-color: var(--pink-color);
+  color: var(--text-100);
+  cursor: pointer;
+}
+.NavComponent ul li a {
+  color: #0d0e43;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 20px !important;
+}
+.NavComponent ul li a:hover {
+  color: var(--pink-color);
+}
+.BannerContent {
+  min-height: 550px;
+}
+.bannerImage {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 550px;
+}
+.title h4 {
+  font-size: 32px !important;
+  margin-bottom: 20px !important;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 35px;
+}
+.description p {
+  color: #0d0e43;
+  margin: 0;
+  line-height: 24px;
+}
+
+.shopBtn {
+  background: linear-gradient(to right top, #b31cca, #7e33e0);
+  outline: none;
+  border: 1px solid var(--text-100);
+  width: 130px;
+  padding: 0.5rem 0.5rem;
+  color: var(--text-100);
+}
+.active {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 6;
+  box-shadow: 0px 5px 20px #f0eaea;
+}
+.formGroup {
+  width: 25% !important;
+}
+
+@media screen and (max-width: 992px) {
+  .letftContent {
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  .letftContent p {
+    font-size: 13px;
+  }
+  .rightContent ul {
+    justify-content: center !important;
+  }
+  .rightContent ul li {
+    font-size: 13px;
+  }
+  .rightContent ul li svg {
+    font-size: 16px !important;
+  }
+  .title h4 {
+    font-size: 25px !important;
+  }
+
+  .bannerImage {
+    min-height: 450px;
+    background-size: contain;
+  }
+  .description {
+    width: 100% !important;
+  }
+  .description p {
+    font-size: 14px;
+  }
+  .shopBtn {
+    font-size: 15px;
+    padding: 0.4rem 0.3rem;
+    width: 110px;
+  }
+  .formGroup {
+    width: 100% !important;
+  }
+}
+
+/* mediam screen */
+@media screen and (max-width: 768px) {
+  .title h4 {
+    font-size: 20px !important;
+    margin-bottom: 5px !important;
+    line-height: 25px;
+  }
+  .shopBtn {
+    font-size: 15px;
+    padding: 0.4rem 0.2rem;
+    width: 95px;
+  }
+
+  .description p {
+    display: none;
+  }
+
+  .formGroup {
+    width: 100% !important;
+  }
+}
+
+/* mobile Screen */
+@media screen and (max-width: 450px) {
+  .letftContent {
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .letftContent p {
+    font-size: 11px;
+  }
+  .rightContent ul {
+    gap: 5px !important;
+  }
+  .rightContent ul li {
+    font-size: 11px;
+  }
+  .rightContent ul li svg {
+    font-size: 14px !important;
+  }
+  .NavComponent .navBar .brandName {
+    font-size: 18px !important;
+  }
+  .ToggleBtn {
+    font-size: 14px !important;
+  }
+
+  .formGroup {
+    width: 100% !important;
+  }
+  .BannderContentSection {
+    width: 50% !important;
+    margin-left: auto;
+  }
+  .BannerContent {
+    min-height: 400px !important;
+  }
+  .bannerImage {
+    min-height: 330px;
+    width: 100%;
+    background-size: contain;
+    background-position: 50% 50%;
+  }
+  .title h4 {
+    font-size: 13px !important;
+    line-height: 17px;
+  }
+
+  .description p {
+    display: none;
+  }
+  .shopBtn {
+    font-size: 12px;
+    width: 80px;
+  }
+}

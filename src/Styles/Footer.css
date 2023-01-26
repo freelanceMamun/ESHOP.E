@@ -1,0 +1,60 @@
+.Footer_container {
+  background-color: #eeeffb;
+  margin-top: 8rem;
+}
+.logo_title {
+  font-size: 38px !important;
+}
+
+.Footer_container a,
+.Footer_container p {
+  text-decoration: none;
+  color: #8a8fb9;
+}
+
+.Footer_Content ul li {
+  list-style: none;
+  padding: 0.5rem 0 !important;
+  margin-bottom: 0.3rem !important;
+}
+
+.Footer_Content h3 {
+  color: #151875;
+  line-height: 26px;
+}
+.CopyRight_section {
+  background-color: #e7e4f8;
+}
+.Footer_Content form .inputFild input,
+.Footer_Content button {
+  border: none;
+  outline: none;
+  padding: 0.5rem 0.6rem;
+  border-radius: 3px;
+  width: 70%;
+}
+.Footer_Content form .inputFild button {
+  background-color: #fb2e86;
+  color: #fff;
+  width: max-content;
+}
+
+@media screen and (max-width: 450px) {
+  .Footer_Content h3 {
+    font-size: 18px;
+  }
+  .Footer_Content p {
+    font-size: 14px;
+  }
+  .Footer_Content ul li {
+    font-size: 14px;
+  }
+  .logo_title {
+    font-size: 27px !important;
+  }
+  .Footer_Content form .inputFild input,
+  .Footer_Content button {
+    width: 65%;
+    padding: 0.3rem 0.5rem;
+  }
+}

@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300&display=swap');
+
+:root {
+  --font-Poppins: 'Poppins', sans-serif;
+  --violet-color: #7e33e0;
+  --text-100: #f1f1f1;
+  --pink-color: #fb2e86;
+  --heading-color: #151875;
+}
+body {
+  font-family: var(--font-Poppins);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-Poppins);
+}
+
+li {
+  list-style: none;
+}
+
+button,
+input,
+textarea,
+select {
+  box-shadow: none !important;
+  outline: none !important;
+  border-radius: 3px !important;
+}
+
+p {
+  margin-bottom: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none !important;
+}
+
+.short .rating-main .ratting {
+  display: inline-block;
+  color: var(--violet-color);
+}
+
+.short .rating-main .total-review {
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+  display: inline-block;
+  color: var(--heading-color);
+  transition: all 0.3s;
+}
+.Ssg-price .price {
+  font-size: 20px;
+  color: var(--pink-color);
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.Ssg-price .price .discount {
+  display: inline-block;
+  margin-right: 15px;
+  color: var(--violet-color);
+}
+
+.short .descripton {
+  font-size: 16px;
+  color: #8a8fb9;
+  border-bottom: 1px solid #eee;
+}
+
+.color {
+  display: inline-block;
+}
+.color h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.color ul {
+  margin-top: 10px;
+}
+.color ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.color ul li a {
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  text-align: center;
+  display: block;
+  background: #ccc;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.color ul li a svg {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.color ul li a:hover svg {
+  opacity: 1;
+  visibility: visible;
+}
+
+.color ul li .one {
+  background-color: var(--pink-color) !important;
+}
+
+.color ul li .Two {
+  background-color: var(--violet-color) !important;
+}
+
+.color ul li .three {
+  background-color: #2f1ac4 !important;
+}
+.color ul li .Four {
+  background-color: #19d16f !important;
+}
+
+.size-Items li {
+  background-color: var(--heading-color);
+  height: 30px;
+  width: 33px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-100);
+  padding: 2px !important;
+  cursor: pointer;
+}
+.size-Items li a {
+  color: #fff;
+}
+.QuantityValue {
+  border: 1px solid #ccc;
+}
+.QuantityValue input {
+  border: none;
+  width: 100%;
+}
+.QuantityValue button {
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
+.Add-cart_btn a {
+  background-color: var(--heading-color);
+  color: #ffff;
+  border-radius: 3px !important;
+  padding: 8px 15px;
+}
